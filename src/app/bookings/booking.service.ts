@@ -19,7 +19,7 @@ userId:'abc'
 
     get bookings(){
 
-return this._bookins;
+return [...this._bookins];
     }
 
 
